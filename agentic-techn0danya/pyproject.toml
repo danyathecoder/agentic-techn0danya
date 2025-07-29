@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "agentic_techn0danya"
+version = "0.1.0"
+description = ""
+authors = ["Danila Paddubny <danilapoddubny26@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^22.3"
+httpx = "^0.28.1"
+dotenv = "^0.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
